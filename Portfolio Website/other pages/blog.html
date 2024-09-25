@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Sidra Website</title>
+  <style>
+    body {
+      overflow-x: hidden;
+    }
+
+    img {
+      transition: ease-in;
+      transition-duration: 3s;
+    }
+
+    img:hover {
+      transform: scale(90%);
+      opacity: 0.3;
+      box-shadow: 2px, 5px, 5px, 2px hsla(22, 44, 55, 0.3);
+    }
+    .simple{
+     height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
+   .main{
+        color: white;
+        flex-basis: 450px;
+        height: 450px;
+        box-shadow: 3px 3px 8px 8px rgb(110, 105, 105);
+        border-radius: 20px;
+        background-image: url(https://cdn5.vectorstock.com/i/1000x1000/86/74/red-and-gold-background-with-floral-ornaments-vector-2818674.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main h4{
+        padding: 27px;
+        text-align: center;
+    }
+.form-outer label{
+    display: block;
+    margin: 10px 10px;
+}
+.form-outer input{
+    width: 98%;
+    height: 24px;
+    margin: 2px;
+}
+.form-outer button{
+    border-radius: 20px;
+    background-color: rgb(207, 168, 68);
+color: white;
+width: 50%;
+padding: 10px;
+margin: 45px;
+cursor: pointer;
+text-align: center;
+}
+.card:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .card {
+    box-shadow: 0px 8px 10px 0px gray;
+    /* z-index =it will work only for position:relative,absolute,stiky or fixed-- */
+    z-index: 1;
+  }
+  </style>
+</head>
+
+<body>
+  <!-- header-- -->
+  <section style="font-family:Rubik, sans-serif;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img width="30" height="30"
+          src="https://img.freepik.com/premium-vector/letter-v-crown-logo-crown-logo-letter-v-template-beauty-fashion-star-elegant-luxury-sign_754537-682.jpg"
+          style="margin-right: 2%;" class="rounded-pill" alt="" srcset="">
+        <a class="navbar-brand fs-4 fw-bold" href="#">VANEEZA <span class="text-danger">WEB DEVELOPER </span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link active text-danger fw-bold" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Our Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <button type="button" class="btn btn-danger" href="web designer.vaneeza">Order Now</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- end header-- -->
+    <!-- bolg-- -->
+  <section class="container" data-aos="fade-up" data-aos-duration="1000">
+    <div class="row my-3">
+      <div class="col text-center">
+        <h2 class=" fs-2 fw-bold mt-5">OUR <span class="text-danger"> BLOG </span></h2>
+        <hr class="w-25 m-auto">
+      </div>
+    </div>
+  </section>
+  <section class="container mt-5" data-aos="fade-up" data-aos-duration="1000">
+    <img width="100%" height="600" src="images/Great business needs a customizable website.png" alt="" srcset="">
+  </section>
+  <!-- end blog-- -->
+   <!-- footer-- -->
+   <section class="container-fluid  pt-5 mt-5" data-aos="fade-up" data-aos-duration="1000" style="color: white; background-color: black;">
+    <div class="container py-5">
+      <div class="row g-5">
+      <div class="col-lg-3 col-md-6">
+        <h6 class="playwrite-us-trad-uniquifier fw-bold" style="color: rgb(255, 30, 0);">Company_______
+        </h6>
+        <i class="fa-solid fa-angle-right"></i> About Us <br>
+        <i class="fa-solid fa-angle-right"></i> Contact Us <br>
+        <i class="fa-solid fa-angle-right"></i>  Reservation <br>
+        <i class="fa-solid fa-angle-right"></i>  Privacy Policy <br>
+        <i class="fa-solid fa-angle-right"></i>  Terms & Condition
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h6 class="playwrite-us-trad-uniquifier fw-bold" style="color: rgb(255, 30, 0);">Contact________</h6>
+        <i class="fa-solid fa-location-dot" style="color: rgb(255, 30, 0);"></i>  Dar-ul-Ehsan Town 56300 - Okara, <br>
+        <i class="fa-solid fa-phone" style="color: rgb(255, 30, 0);"></i>   03010971755  <br>
+        <i class="fa-solid fa-envelope" style="color: rgb(255, 30, 0);"></i>  vaneeza web designer@gmail.com <br> 
+        <i class="fa-brands fa-twitter fa-2x" style="color: white;"></i>
+        <i class="fa-brands fa-facebook fa-2x" style="color: white;"></i>
+        <i class="fa-brands fa-youtube fa-2x" style="color: white;"></i>
+        <i class="fa-brands fa-linkedin fa-2x" style="color: white;"></i>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h6 class="playwrite-us-trad-uniquifier fw-bold" style="color: rgb(255, 30, 0);">Opening________</h6>
+        <span>Monday-Saturday</span> <br> 
+        09AM-09PM  <br> 
+        <span>Sunday</span> <br> 
+        10AM-8PM
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h6 class="playwrite-us-trad-uniquifier fw-bold" style="color: rgb(255, 30, 0);">Newsletter________</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, non.</p>
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInputGrid" placeholder="Your email">
+          <label for="floatingInputGrid" style="color: black;">Your email
+            <a href="http://google.com">
+          <button type="button" class="btn sm-btn ms-5" style="color: white; background-color: rgb(255, 30, 0);">SIGN UP</button>
+        </a>
+        </label>
+        </div>
+      </div>
+    <hr class="w-85" style="margin-top: 6%;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 text-center mb-3">
+          <p>&copy; All Right Reserved. Designed By  <span style="color: rgb(255, 30, 0);">Vaneeza Designer</span></p> 
+          <p>Distributed By <u> apnadeveloper </u></p>
+        </div>
+        <div class="col-md-6 text-center "> <span> Home | </span> <span class="ms-2">Cookies |</span> <span class="ms-2">Help |</span> <span class="ms-2">FQAs |</span> </div>
+      </div>
+    </div>
+    </div>
+          </section>
+           <!-- end footer-- -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+  useClassNames: true,
+  initClassName: false,
+  animatedClassName: 'animated',
+});
+</script>
+</body>
+</html>
